@@ -1,0 +1,16 @@
+{
+  "name": "tsconfig-extends-vscode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tzvi Melamed <tzvi@melamed.biz>",
+  "license": "MIT",
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "tsconfig-vscode-base": "^0.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  }
+}
